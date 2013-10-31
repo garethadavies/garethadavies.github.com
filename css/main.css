@@ -1,21 +1,11 @@
 
 .posts-item {
-  border: 1px solid #ccc;
-  border-radius: 3px;
   margin-bottom: 30px;
-  padding: 12px 20px;
 }
 
-.posts-item-date {
-  background-color: #eee;
-  color: #666;
-  /*border-radius: 3px;*/
-  padding: 10px;
-  position: relative;
-  top: -12px;
-  right: -20px;
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+.posts-item .posts-item-date,
+.posts-item h3 {
+  margin: 0;
 }
 
 /*------------------------------------------------------------------------------
