@@ -1,10 +1,18 @@
 
+.post {
+  margin-top: 20px;
+}
+
 .posts-item {
   margin-bottom: 30px;
 }
 
 .posts-item .posts-item-date,
 .posts-item h3 {
+  margin: 0;
+}
+
+.no-margin {
   margin: 0;
 }
 
