@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Interview rules & tips"
 date:   2013-11-05 11:16:00
 ---

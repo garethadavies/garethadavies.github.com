@@ -1,4 +1,27 @@
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.container {
+  width: 46em;
+}
+
 .post {
   margin-top: 20px;
 }
@@ -8,7 +31,7 @@
 }
 
 .posts-item .posts-item-date,
-.posts-item h3 {
+.posts-item h4 {
   margin: 0;
 }
 
