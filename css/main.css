@@ -1,29 +1,75 @@
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Helvetica Neue', Helvetica, Arial;
+html {
+  font-size: 62.5%;
 }
 
-h1,
+body,
+.pure-g-r,
+.pure-g-r [class*="pure-u"] {
+  font-size: 1.4rem;
+  font-family: 'Roboto Slab', sans-serif;
+  /*font-family: 'Bree Serif', serif;*/
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 44px;
+  font-size: 4.4rem;
+}
+
+h3 {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+p,
+li,
+label {
+  /*font-size: 1.4rem;*/
+}
+
+h1 {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 40px 0;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Bree Serif', serif;*/
+  font-weight: 400;
 }
 
 .container {
-  width: 46em;
+  max-width: 67.14rem;
+  margin: 0 auto;
 }
 
 .post {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .posts-item {
@@ -37,6 +83,14 @@ h6 {
 
 .no-margin {
   margin: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.margin-top {
+  margin-top: 20px;
 }
 
 /*------------------------------------------------------------------------------
